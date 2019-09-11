@@ -1,15 +1,14 @@
 /**********************
  *
- *  This build file contains script used by Xebialabs to distribute the example packages and code.
- *  It is not part of the examples and you are not required to use or understand it.
- *
+ *  This build file contains a script that XebiaLabs uses to distribute the example packages and code.
+ *  You can ignore it.
  */
 
 apply plugin: 'idea'
 
 allprojects { p ->
   group = "com.xebialabs.xldeploy.samples"
-  version = "1.0.6"
+  version = "1.0.8"
 }
 
 subprojects.each { p ->
